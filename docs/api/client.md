@@ -215,14 +215,8 @@ The function `into` is used for binding local output data (in other words, it de
 template <typename T>
 IT into(T & t);
 
-template <typename T, typename T1>
-IT into(T & t, T1 p1);
-
 template <typename T>
 IT into(T & t, indicator & ind);
-
-template <typename T, typename T1>
-IT into(T & t, indicator & ind, T1 p1);
 
 template <typename T>
 IT into(T & t, std::vector<indicator> & ind);
